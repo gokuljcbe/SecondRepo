@@ -1,1 +1,32 @@
 #New File
+
+okul@gokul-SVE15113ENW:~/Documents/test/SecondRepo$ git add .
+gokul@gokul-SVE15113ENW:~/Documents/test/SecondRepo$ git commit
+Aborting commit due to empty commit message.
+gokul@gokul-SVE15113ENW:~/Documents/test/SecondRepo$ git push
+Everything up-to-date
+gokul@gokul-SVE15113ENW:~/Documents/test/SecondRepo$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+	new file:   new_file.txt
+	new file:   new_folder/.gitkeep
+
+gokul@gokul-SVE15113ENW:~/Documents/test/SecondRepo$ git commit -m "First Commit"
+[main a2630dd] First Commit
+ 3 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100644 new_file.txt
+ create mode 100644 new_folder/.gitkeep
+gokul@gokul-SVE15113ENW:~/Documents/test/SecondRepo$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 502 bytes | 502.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/gokuljcbe/SecondRepo.git
+   dccde19..a2630dd  main -> main
+
